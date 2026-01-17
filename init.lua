@@ -7,13 +7,15 @@ vim.g.maplocalleader = ' '
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
+
+
 vim.lsp.enable({
   -- nix
   "nil_ls",
   -- typst
   "tinymist",
   -- lua
-  -- "luals",
+  "luals",
   -- python
   -- "pyright",
   -- "ruff",
