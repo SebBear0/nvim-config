@@ -3,11 +3,9 @@
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
--- Make line numbers default
+-- Make relative line numbers default
 vim.o.number = true
--- You can also add relative line numbers, to help with jumping.
---  Experiment for yourself to see if you like it!
--- vim.o.relativenumber = true
+vim.o.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
@@ -25,6 +23,12 @@ end)
 
 -- Enable break indent
 vim.o.breakindent = true
+
+-- Have preference for tabs and have tabs be 4 spaces
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.sotftabstop = 4
+vim.o.expandtab = false
 
 -- Save undo history
 vim.o.undofile = true
