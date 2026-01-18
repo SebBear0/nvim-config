@@ -27,8 +27,9 @@ vim.o.breakindent = true
 -- Have preference for tabs and have tabs be 4 spaces
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
-vim.o.sotftabstop = 4
 vim.o.expandtab = false
+vim.o.autoindent = true
+vim.o.smartindent = true
 
 -- Save undo history
 vim.o.undofile = true
