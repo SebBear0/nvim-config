@@ -14,17 +14,8 @@ vim.lsp.enable {
 	'tinymist',
 	-- lua
 	'luals',
-	-- python
-	-- "pyright",
-	-- "ruff",
-	-- markdown
-	-- "ltex",
-	-- terraform
-	-- "terraformls",
-	-- yaml
-	-- "yamlls",
-	-- bash
-	-- "bashls"
+	-- rust
+	'rust-analyzer',
 }
 
 -- [[ Setting options ]]
