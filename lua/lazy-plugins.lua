@@ -29,15 +29,14 @@ require('lazy').setup({
 
 	require 'kickstart.plugins.yazi',
 
-	require 'kickstart.plugins.telescope',
+	require 'kickstart.plugins.snacks',
 
-	--require 'kickstart.plugins.lspconfig',
+	require 'kickstart.plugins.krust',
 
 	require 'kickstart.plugins.conform',
 
 	require 'kickstart.plugins.blink-cmp',
 
-	-- require 'kickstart.plugins.tokyonight',
 	require 'kickstart.plugins.catppuccin',
 
 	require 'kickstart.plugins.todo-comments',

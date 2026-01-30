@@ -41,6 +41,9 @@ vim.o.smartcase = true
 -- Keep signcolumn on by default
 vim.o.signcolumn = 'yes'
 
+-- Set rounded border on floating windows
+vim.o.winborder = 'rounded'
+
 -- Decrease update time
 vim.o.updatetime = 250
 

@@ -9,24 +9,18 @@ return {
 			{ 'nvim-lua/plenary.nvim', lazy = true },
 		},
 		keys = {
-			-- 👇 in this section, choose your own keymappings!
 			{
-				'<leader>sy',
+				'se',
 				mode = { 'n', 'v' },
 				'<cmd>Yazi<cr>',
-				desc = 'Open yazi at the current file',
+				desc = '[S]earch with file [E]xplorer',
 			},
 			{
 				-- Open in the current working directory
-				'<leader>-',
+				'sE',
 				'<cmd>Yazi cwd<cr>',
-				desc = "Open the file manager in nvim's working directory",
+				desc = '[S]earch CWD with [E]xplorer',
 			},
-			-- {
-			--   "<c-up>",
-			--   "<cmd>Yazi toggle<cr>",
-			--   desc = "Resume the last yazi session",
-			-- },
 		},
 		---@type YaziConfig | {}
 		opts = {

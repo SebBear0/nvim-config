@@ -8,6 +8,13 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
+-- Unbind some keys so it can be used for other bindings
+vim.keymap.set({ 'n', 'v', 'o' }, 's', '<Nop>', { silent = true, desc = 'Unbound s key' })
+vim.keymap.set({ 'n', 'v', 'o' }, 'k', '<Nop>', { silent = true, desc = 'Unbound k key' })
+
+-- Show diagnostic float
+vim.keymap.set('n', 'k', vim.diagnostic.open_float, { desc = 'Show diagnostics for current line' })
+
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
 -- is not what someone will guess without a bit more experience.
